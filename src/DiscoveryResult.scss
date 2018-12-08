@@ -1,0 +1,30 @@
+$result-background-color: rgb(242, 242, 242);
+$result-title-color: rgb(86, 47, 114);
+$result-preview-color: rgb(86, 47, 114);
+$result-link-color: rgb(186, 143, 247);
+$result-border-color: rgb(86, 47, 114);
+
+.result {
+    background-color: $result-background-color;
+    padding: 1rem;
+    width: 90%;
+    border: 1px solid #1c3e7e;
+
+    &__title {
+        color: #1c3e7e;
+        font-weight: bold;
+    }
+
+    &__preview {
+        color: #1C9AD6;
+    }
+
+    &__link {
+        color: #1c3e7e;
+    }
+}
+
+.result + .result {
+    margin-top: 0rem;
+    border-top: none;
+}

@@ -1,0 +1,16 @@
+.result {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  width: 90%;
+  border: 1px solid #1c3e7e; }
+  .result__title {
+    color: #1c3e7e;
+    font-weight: bold; }
+  .result__preview {
+    color: #1C9AD6; }
+  .result__link {
+    color: #1c3e7e; }
+
+.result + .result {
+  margin-top: 0rem;
+  border-top: none; }
