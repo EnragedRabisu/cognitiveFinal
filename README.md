@@ -4,10 +4,11 @@ npm install
 ```
 
 ### Setting up global dependencies
-Either add references to 'node-sass-chokidar' and 'react-scripts' to the PATH variable or do the following to install them globally:
+Either add references to 'node-sass-chokidar', 'react-scripts', and 'npm-run-all' to the PATH variable or do the following to install them globally:
 ```bash
 npm install -g node-sass-chokidar
 npm install -g react-scripts
+npm install -g npm-run-all
 ```
 
 ### Setting up the React Front-end
