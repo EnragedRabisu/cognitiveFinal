@@ -3,6 +3,13 @@
 npm install
 ```
 
+### Setting up global dependencies
+Either add references to 'node-sass-chokidar' and 'react-scripts' to the PATH variable or do the following to install them globally:
+```bash
+npm install -g node-sass-chokidar
+npm install -g react-scripts
+```
+
 ### Setting up the React Front-end
 Create an optimized build of your app. During this stage, your environment variable will be inserted into App.js for use by your components.
 ```bash
