@@ -1,3 +1,8 @@
+### Setting up NPM dependencies
+```bash
+npm install
+```
+
 ### Setting up the React Front-end
 Create an optimized build of your app. During this stage, your environment variable will be inserted into App.js for use by your components.
 ```bash
