@@ -55,6 +55,7 @@ class App extends Component {
       this.formatDiscovery(responseJson.output.discoveryResults);
 
     } else {
+      console.log(responseJson);
       const outputMessage = responseJson.output.text.filter(text => text).join('\n');
       const outputIntent = responseJson.intents[0] ? responseJson.intents[0]['intent'] : '';
       const outputDate = responseJson.date.toLocaleTimeString();
